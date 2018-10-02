@@ -4,16 +4,10 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int sec;
-	int time;
+	int in1, in2, in3;
 	
-
-	printf("input the second : ");
-	scanf("%d", &sec);
+	scanf("%d %d %d", &in1, &in2, &in3);
 	
-	printf("the time for %d is %i : %i : %i", sec, sec/3600, (sec%3600)/60, sec%60);
-	
-	
-	
+	printf("the average of three numbers : %f\n",(double)(in1+in2+in3)/3 );
 return 0;
 }
